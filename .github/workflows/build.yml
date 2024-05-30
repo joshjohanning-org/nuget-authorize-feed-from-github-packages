@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  nuget-publish:
+  dotnet-build:
     runs-on: ubuntu-latest
 
     steps:
