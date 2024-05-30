@@ -19,7 +19,7 @@
     </releaseNotes>
     <dependencies>
       <group>
-        <dependency id="Josh.Core" version="1.1.2" />
+        <dependency id="Josh.Core" version="1.1.4" />
         <dependency id="Wolfringo.Utilities" version="1.1.2" />
         <dependency id="Wolfringo.Utilities.Interactive" version="1.1.2" />
         <dependency id="Wolfringo.Commands" version="1.1.2"/>

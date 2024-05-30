@@ -39,8 +39,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Josh.Core" Version="1.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Wolfringo.Commands\Wolfringo.Commands.csproj" />
-    <ProjectReference Include="..\Josh.Core\Josh.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

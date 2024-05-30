@@ -23,11 +23,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.0.0" />
+    <PackageReference Include="Josh.Core" Version="1.1.5" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Wolfringo.Commands\Wolfringo.Commands.csproj" />
-    <ProjectReference Include="..\..\Josh.Core\Josh.Core.csproj" />
     <ProjectReference Include="..\..\Wolfringo.Utilities\Wolfringo.Utilities.csproj" />
   </ItemGroup>
 
