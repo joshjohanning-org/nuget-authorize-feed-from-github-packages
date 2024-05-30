@@ -16,7 +16,7 @@ jobs:
           
       - name: Setup nuget feed
         run: |
-          dotnet nuget add source --username joshjohanning --password ${{ github.token }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/joshjohanning-org/index.json"
+          dotnet nuget add source --username ${{ github.actor }} --password ${{ github.token }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/joshjohanning-org/index.json"
 
       - name: Install dependencies
         run: dotnet restore
